@@ -8,7 +8,14 @@ import org.bson.Document;
 import org.bson.conversions.Bson;
 import org.junit.Assert;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Component;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.TestPropertySource;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +36,7 @@ public class MongoClientLesson extends AbstractLesson {
 
   private MongoCollection<Document> collection;
 
-  private String uri = "<YOUR SRV STRING from the application.properties file>";
+  private String uri = "mongodb+srv://m220student:m220password@mflix-dpbje.mongodb.net/test?retryWrites=true&w=majority";
 
   private Document document;
 
@@ -121,7 +128,7 @@ public class MongoClientLesson extends AbstractLesson {
     you need to go over the contents more than once.
      */
 
-    Assert.assertTrue(dbnames.contains("mflix"));
+    Assert.assertTrue(dbnames.contains("sample_mflix"));
 
     /*
     Then we have our MongoDatabase object. We will use this object to
@@ -154,7 +161,7 @@ public class MongoClientLesson extends AbstractLesson {
      */
 
     mongoClient = MongoClients.create(uri);
-    database = mongoClient.getDatabase("mflix");
+    database = mongoClient.getDatabase("sample_mflix");
     collection = database.getCollection("movies");
 
     /*
