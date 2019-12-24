@@ -33,9 +33,6 @@ public class BasicReads extends AbstractLesson {
    */
   @Test
   public void testCanFindOne() {
-    // We do not expect the document returned to be null, so we name this
-    // unexpected
-    Document unexpected = null;
 
     // find() returns a FindIterable. We use the iterator() method to
     // convert this into a MongoCursor.
@@ -49,7 +46,7 @@ public class BasicReads extends AbstractLesson {
 
     // Running this testDb, we should expect some random document, and after
     // we've consumed the iterator with next()
-    Assert.assertNotEquals("should not be null", unexpected, actual);
+    Assert.assertNotNull("should not be null", actual);
 
     // we expect the iterator to have nothing left.
     Assert.assertFalse("the iterator should have no next", cursor.hasNext());
