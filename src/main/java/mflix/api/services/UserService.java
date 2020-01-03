@@ -160,7 +160,6 @@ public class UserService implements UserDetailsService {
     if (userDao.updateUserPreferences(email, preferences)) {
       User user = userDao.getUser(email);
       if(user == null){
-
         throw new UsernameNotFoundException("Cannot find username.");
       }
       results.put("info", user);

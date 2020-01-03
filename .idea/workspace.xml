@@ -2,20 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c8ca3f3-b679-4559-8864-faf9796a3bc6" name="Default Changelist" comment="added gitignore file">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mflix/Migrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mflix/Migrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mflix/api/daos/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mflix/api/daos/CommentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mflix/api/daos/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mflix/api/daos/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mflix/api/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mflix/api/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mflix/lessons/BasicReads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mflix/lessons/BasicReads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorWithStringId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorWithStringId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mflix/api/daos/UpdateCreateCommentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mflix/api/daos/UpdateCreateCommentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mflix/lessons/UsingAggregationBuilders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mflix/lessons/UsingAggregationBuilders.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="29" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -31,50 +36,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/BasicReads.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="139" column="24" lean-forward="true" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
-              <folding>
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="175" column="26" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mflix/api/daos/TextAndSubfieldTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="43" column="67" lean-forward="true" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -82,30 +43,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>getMoviesByCountry</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLessonImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mflix/lessons/BasicReads.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mflix/api/daos/ProjectionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorBasic.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorWithStringId.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -114,102 +53,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mflix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mflix" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1649" />
-    <option name="height" value="992" />
-  </component>
+  <component name="ProjectId" id="1VXEICIcUjN4JmMvtWMHWc1P9ww" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mflix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mflix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mflix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mflix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mflix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mflix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mflix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mflix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mflix" type="462c0819:PsiDirectoryNode" />
-              <item name="lessons" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -224,9 +72,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -236,21 +84,22 @@
       <recent name="mflix.lessons" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="TextAndSubfieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mflix" />
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="Migrator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mflix.Migrator" />
+      <module name="mongoDB_m220j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mflix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MigrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongoDB_m220j" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mflix.api.daos.*" />
@@ -258,14 +107,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mflix.api.daos" />
-      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.TextAndSubfieldTest" />
+      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.MigrationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextAndSubfieldTest.testSearchByCast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mflix" />
+    <configuration name="MigrationTest.testAllDocumentsUpdateDateIsDateType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongoDB_m220j" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mflix.api.daos.*" />
@@ -273,15 +122,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mflix.api.daos" />
-      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.TextAndSubfieldTest" />
-      <option name="METHOD_NAME" value="testSearchByCast" />
+      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.MigrationTest" />
+      <option name="METHOD_NAME" value="testAllDocumentsUpdateDateIsDateType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextAndSubfieldTest.testSearchMultipleCast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mflix" />
+    <configuration name="UserReportTest.testMostActiveUserComments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mongoDB_m220j" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mflix.api.daos.*" />
@@ -289,40 +138,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mflix.api.daos" />
-      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.TextAndSubfieldTest" />
-      <option name="METHOD_NAME" value="testSearchMultipleCast" />
+      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.UserReportTest" />
+      <option name="METHOD_NAME" value="testMostActiveUserComments" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingPojoLesson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mflix" />
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mongoDB_m220j" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mflix.lessons.*" />
+          <option name="PATTERN" value="mflix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mflix.lessons" />
-      <option name="MAIN_CLASS_NAME" value="mflix.lessons.UsingPojoLesson" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsingPojoLesson.testReadObjectWithCustomFieldCodec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mflix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mflix.lessons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mflix.lessons" />
-      <option name="MAIN_CLASS_NAME" value="mflix.lessons.UsingPojoLesson" />
-      <option name="METHOD_NAME" value="testReadObjectWithCustomFieldCodec" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mflix.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -336,13 +167,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TextAndSubfieldTest" />
-        <item itemvalue="JUnit.TextAndSubfieldTest.testSearchByCast" />
-        <item itemvalue="JUnit.TextAndSubfieldTest.testSearchMultipleCast" />
-        <item itemvalue="JUnit.UsingPojoLesson" />
-        <item itemvalue="JUnit.UsingPojoLesson.testReadObjectWithCustomFieldCodec" />
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Application.Migrator" />
+        <item itemvalue="JUnit.MigrationTest.testAllDocumentsUpdateDateIsDateType" />
+        <item itemvalue="JUnit.MigrationTest" />
+        <item itemvalue="JUnit.UserReportTest.testMostActiveUserComments" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -357,6 +200,9 @@
       <workItem from="1577096697241" duration="6222000" />
       <workItem from="1577113148590" duration="2306000" />
       <workItem from="1577179069016" duration="12719000" />
+      <workItem from="1577390960861" duration="31630000" />
+      <workItem from="1577726123752" duration="14913000" />
+      <workItem from="1577881294375" duration="15676000" />
     </task>
     <task id="LOCAL-00001" summary="fixed MongoDBClient tests">
       <created>1577113291078</created>
@@ -375,41 +221,6 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="UsingPojoLesson_testReadObjectWithCustomFieldCodec - 2019.12.24 at 21h 08m 22s.xml">
-      <configuration name="UsingPojoLesson.testReadObjectWithCustomFieldCodec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsingPojoLesson_testReadObjectWithCustomFieldCodec - 2019.12.24 at 21h 10m 46s.xml">
-      <configuration name="UsingPojoLesson.testReadObjectWithCustomFieldCodec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsingPojoLesson_testReadObjectWithCustomFieldCodec - 2019.12.24 at 21h 11m 33s.xml">
-      <configuration name="UsingPojoLesson.testReadObjectWithCustomFieldCodec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsingPojoLesson_testReadObjectWithCustomFieldCodec - 2019.12.24 at 21h 11m 45s.xml">
-      <configuration name="UsingPojoLesson.testReadObjectWithCustomFieldCodec" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsingPojoLesson - 2019.12.24 at 21h 15m 31s.xml">
-      <configuration name="UsingPojoLesson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TextAndSubfieldTest - 2019.12.24 at 21h 23m 50s.xml">
-      <configuration name="TextAndSubfieldTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TextAndSubfieldTest_testSearchMultipleCast - 2019.12.24 at 21h 27m 35s.xml">
-      <configuration name="TextAndSubfieldTest.testSearchMultipleCast" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TextAndSubfieldTest_testSearchByCast - 2019.12.24 at 21h 28m 43s.xml">
-      <configuration name="TextAndSubfieldTest.testSearchByCast" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TextAndSubfieldTest - 2019.12.24 at 21h 29m 56s.xml">
-      <configuration name="TextAndSubfieldTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UsingPojoLesson_testReadObjectWithCustomFieldCodec - 2019.12.24 at 21h 30m 02s.xml">
-      <configuration name="UsingPojoLesson.testReadObjectWithCustomFieldCodec" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21247000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -419,82 +230,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1649" height="992" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.29184815" />
-      <window_info id="Structure" order="1" sideWeight="0.50164473" side_tool="true" visible="true" weight="0.29184815" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32444444" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37222221" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="SonarLint" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.05600498" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26254827" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44666666" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="SonarLint" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.12612613" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -502,408 +237,161 @@
     <MESSAGE value="fixed MongoDBClient tests" />
     <option name="LAST_COMMIT_MESSAGE" value="fixed MongoDBClient tests" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="346" y="9" key="#Application" timestamp="1577542288029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="9" key="#Application/0.0.1366.728@0.0.1366.728" timestamp="1577542288029" />
+    <state x="275" y="26" key="#Project_Structure" timestamp="1577391183472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="26" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1577391183472" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1577742503584">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1577742503584" />
+    <state x="392" y="218" width="756" height="478" key="#xdebugger.evaluate" timestamp="1577885397047">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="218" width="756" height="478" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1577885397047" />
+    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1577445777629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577445777629" />
+    <state width="501" height="615" key="DebuggerActiveHint" timestamp="1577913974248">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="501" height="615" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1577913974248" />
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1578052365695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578052365695" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1578052365694">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578052365694" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1578052365693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578052365693" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1578052365694">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578052365694" />
+    <state width="1323" height="199" key="GridCell.Tab.1.bottom" timestamp="1578052365695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="199" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578052365695" />
+    <state width="1323" height="199" key="GridCell.Tab.1.center" timestamp="1578052365695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="199" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578052365695" />
+    <state width="1323" height="199" key="GridCell.Tab.1.left" timestamp="1578052365695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="199" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578052365695" />
+    <state width="1323" height="199" key="GridCell.Tab.1.right" timestamp="1578052365695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="199" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578052365695" />
+    <state width="1323" height="192" key="GridCell.Tab.2.bottom" timestamp="1577919159496">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577919159496" />
+    <state width="1323" height="192" key="GridCell.Tab.2.center" timestamp="1577919159495">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1577919159495" />
+    <state width="1323" height="192" key="GridCell.Tab.2.left" timestamp="1577919159495">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1577919159495" />
+    <state width="1323" height="192" key="GridCell.Tab.2.right" timestamp="1577919159495">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1577919159495" />
+    <state width="1323" height="265" key="GridCell.Tab.3.bottom" timestamp="1577732030685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577732030685" />
+    <state width="1323" height="265" key="GridCell.Tab.3.center" timestamp="1577732030684">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1577732030684" />
+    <state width="1323" height="265" key="GridCell.Tab.3.left" timestamp="1577732030684">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1577732030684" />
+    <state width="1323" height="265" key="GridCell.Tab.3.right" timestamp="1577732030685">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="265" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1577732030685" />
+    <state x="213" y="23" key="Maven.ArtifactSearchDialog" timestamp="1577744140336">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="23" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1577744140336" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1577542420205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577542420205" />
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1577881294347">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577881294347" />
+    <state x="227" y="104" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577903781986">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="227" y="104" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1577903781986" />
+    <state x="346" y="49" width="918" height="678" key="search.everywhere.popup" timestamp="1577894550104">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="918" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1577894550104" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/mflix/Migrator.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/mflix/Migrator.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/main/java/mflix/Migrator.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/main/java/mflix/Migrator.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java</url>
-          <line>189</line>
-          <properties />
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/main/java/mflix/Migrator.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java</url>
-          <line>203</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java</url>
-          <line>235</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/QueryBuilders.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/QueryBuilders.java</url>
-          <line>147</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/QueryBuilders.java</url>
-          <line>157</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/QueryBuilders.java</url>
-          <line>172</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/QueryBuilders.java</url>
-          <line>199</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/BasicReads.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/BasicReads.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/BasicReads.java</url>
-          <line>149</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/api/daos/ProjectionTest.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java</url>
-          <line>130</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/api/daos/ProjectionTest.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java</url>
-          <line>168</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java</url>
-          <line>345</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java</url>
-          <line>408</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java</url>
-          <line>388</line>
-          <properties />
-          <option name="timeStamp" value="31" />
+          <url>file://$PROJECT_DIR$/src/main/java/mflix/Migrator.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="144" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>pojoActor.getDateOfBirth()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>docActor.get(&quot;date_of_birth&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>actual.getString(&quot;title&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/services/MoviesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLessonImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/build/static/js/1.18f02ebe.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.9.1/mongodb-driver-core-3.9.1.jar!/com/mongodb/MongoClientSettings.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="263" column="43" selection-start-line="263" selection-start-column="43" selection-end-line="263" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/controllers/MovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.9.1/bson-3.9.1.jar!/org/bson/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/MongoClientLesson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="122" column="55" lean-forward="true" selection-start-line="122" selection-start-column="55" selection-end-line="122" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.9.1/mongodb-driver-core-3.9.1.jar!/com/mongodb/client/model/Projections.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-          <folding>
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2209#2210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#1657#1658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/3.9.1/mongodb-driver-sync-3.9.1.jar!/com/mongodb/client/MongoCursor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/3.9.1/mongodb-driver-sync-3.9.1.jar!/com/mongodb/client/MongoCollection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/api/daos/ProjectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.9.1/mongodb-driver-core-3.9.1.jar!/com/mongodb/client/model/Filters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/AbstractLesson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="44" />
-          <folding>
-            <element signature="e#1170#1200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorWithStringId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/utils/StringObjectIdCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="43" column="67" lean-forward="true" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/QueryBuilders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="175" column="26" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/lessons/BasicReads.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="139" column="24" lean-forward="true" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
-          <folding>
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mflix/api/daos/TextAndSubfieldTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mongoDB_m220j$DeleteCommentTest.ic" NAME="DeleteCommentTest Coverage Results" MODIFIED="1577744613436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mflix.api.daos.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mongoDB_m220j$UpdateCreateCommentTest_testUserUpdatesOwnComments.ic" NAME="UpdateCreateCommentTest.testUserUpdatesOwnComments Coverage Results" MODIFIED="1577741874372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mflix.api.daos.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/mongoDB_m220j$Application__1_.ic" NAME="Application (1) Coverage Results" MODIFIED="1577744475435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mflix.*</FILTER>
+    </SUITE>
   </component>
 </project>

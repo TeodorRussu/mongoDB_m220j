@@ -118,6 +118,7 @@ public class UpdateCreateCommentTest extends TicketTest {
   @Test(expected = IncorrectDaoOperation.class)
   public void testUserAddCommentWithNoID() {
     Comment actual = fakeCommentNoId();
+    Comment expectedComment = fakeCommentWithId();
     dao.addComment(actual);
   }
 

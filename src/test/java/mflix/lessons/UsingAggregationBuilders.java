@@ -210,7 +210,7 @@ public class UsingAggregationBuilders extends AbstractLesson {
       System.out.println(doc);
       sortByCountResults.add(doc);
     }
-
+//    Arrays.asList(match(eq("countries", "Portugal")), unwind("$cast"), group("$cast", sum("appearences", 1L)), sort(descending("appearences")))
     /*
     Running both pipelines, the same set of results.
      */
