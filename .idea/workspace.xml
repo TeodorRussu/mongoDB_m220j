@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c8ca3f3-b679-4559-8864-faf9796a3bc6" name="Default Changelist" comment="">
+    <list default="true" id="1c8ca3f3-b679-4559-8864-faf9796a3bc6" name="Default Changelist" comment="chapter 2 and 3 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +192,7 @@
       <workItem from="1577179069016" duration="12719000" />
       <workItem from="1577390960861" duration="31630000" />
       <workItem from="1577726123752" duration="14913000" />
-      <workItem from="1577881294375" duration="16508000" />
+      <workItem from="1577881294375" duration="16741000" />
     </task>
     <task id="LOCAL-00001" summary="fixed MongoDBClient tests">
       <created>1577113291078</created>
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578052567984</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chapter 2 and 3 done">
+      <created>1578172599495</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578172599495</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -252,10 +259,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="218" width="756" height="478" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1577885397047" />
-    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1578052565546">
+    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1578172696649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578052565546" />
+    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578172696649" />
     <state width="501" height="615" key="DebuggerActiveHint" timestamp="1577913974248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -332,10 +339,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577542420205" />
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1578052584172">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1578172605682">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578052584172" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578172605682" />
     <state x="390" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1577881294347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
