@@ -1,9 +1,8 @@
 package mflix.lessons;
 
-import com.mongodb.ConnectionString;
-import com.mongodb.MongoClientSettings;
-import com.mongodb.ReadPreference;
+import com.mongodb.*;
 import com.mongodb.client.*;
+import com.mongodb.connection.SslSettings;
 import org.bson.Document;
 import org.bson.conversions.Bson;
 import org.junit.Assert;
@@ -90,6 +89,17 @@ public class MongoClientLesson extends AbstractLesson {
                         .build();
 
         mongoClient = MongoClients.create(clientSettings);
+
+        SslSettings sslSettings = clientSettings.getSslSettings();
+        ReadPreference readPreference = clientSettings.getReadPreference();
+        ReadConcern readConcern = clientSettings.getReadConcern();
+        WriteConcern writeConcern = clientSettings.getWriteConcern();
+
+        String s = readConcern.asDocument().toString();
+        String s1 = writeConcern.asDocument().toString();
+        boolean b = sslSettings.isEnabled();
+        String s2 = readPreference.toString();
+        boolean b1  = sslSettings.isInvalidHostNameAllowed();
 
         Assert.assertNotNull(mongoClient);
     }
